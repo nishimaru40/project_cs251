@@ -1,5 +1,6 @@
 <?php
-    mysql_connect($dbhost,$dbuser,$dbpass);
-    mysql_select_db($dbname);
-    mysql_query("SET NAMES utf8");
+    $con = mysqli_connect($dbhost,$dbuser,$dbpass) or die("ไม่สามารถเชื่อมต่อฐานข้อมูลได้");
+    echo "เชื่อมต่อฐานข้อมูลสำเร็จ";
+    mysqli_select_db($con,$dbname);
+
 ?>

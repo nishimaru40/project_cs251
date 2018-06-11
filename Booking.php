@@ -1,3 +1,5 @@
+<?php require("mysql/config.php");
+        require("mysql/connect.php");?>
 <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
@@ -11,36 +13,13 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
+    
+
     <body>
-        <?php require("mysql/config.php");?>
-            <?php 
-                $bookID=$_POST['bookID'];
-                $checkIn=$_POST['date-to'];
-                $name=$_POST['name'];
-                $adults=$_POST['adults'];
-                $children=$_POST['children'];
-                $idCard=$_POST['IDCard'];
-                $email=$_POST['email'];
-                $phone=$_POST['phone'];
-
-                $sql="INSERT INTO book(bookID,checkIn,name,adults,children,idCard,email,phone) 
-                    VALUES ('$bookID','$checkIn','$name','$adults','$children','$idCard','$email','$phone')";
-            
-            require("mysql/connect.php");
-        
-                $result=mysql_query($sql);
-                if($result==1){
-                    echo "New record created successfully";
-                }else{
-                    echo "Error: connection failed";
-                }
-
-            require("mysql/unconn.php");
-
-            ?>
+    
 
         <!-- Add your site or application content here -->
-        <form id="booking-form" class="booking-form" name="form1" method="post" action="">
+        <form id="booking-form" class="booking-form" name="form1" method="post" action="Insert.php">
             <div align="center"><img class="logo" src="img/example_logo.jpg" title="Example Logo" alt="Example Logo"></div>
             <div class="h1">Booking form</div>
             <div id="form-message" class="message hide">
@@ -66,18 +45,7 @@
                         </select>
                     </div>
                 </div>
-
-                <div class="group">
-                    <label for="room-type">Room type</label>
-                    <div>
-                        <select id="room-type" name="room-type" class="form-control">
-                            <option value="Single room">Single room</option>
-                            <option value="Double room">Double room</option>
-                        </select>
-                    </div>
-                </div>
                 
-
                 <div class="group">
                     <label for="adults">Adults</label>
                     <div>
