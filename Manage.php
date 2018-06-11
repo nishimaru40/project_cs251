@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -26,7 +27,7 @@
             <div class="h1">Admin Management</div>
             <div id="form-message" class="message hide">
             </div>
-
+            <CENTER> <a href ="checkBook.php"> ตรวจสอบตารางผู้จอง </a></CENTER> <br>
             <CENTER> Increase Advertisement (.jpg / .png / .gif) #รูปจะถูกไปโชว์ที่หน้าHome </CENTER> <br>
          
            

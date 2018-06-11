@@ -166,7 +166,7 @@
     </div>
     <div class="grid_2">
       <ul class="list">
-        <li><a href="#">สระว่านน้ำ </a></li>
+        <li><a href="#">สระว่ายน้ำ </a></li>
         <li><a href="#">ฟิตเนสเซ็นเตอร์</a></li>
         <li><a href="#">สนามแบดมินตัน</a></li>
         <li><a href="#">สนามฟุตซอล</a></li>

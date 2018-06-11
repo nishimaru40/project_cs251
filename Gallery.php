@@ -54,7 +54,7 @@
         <div class="menu_block ">
           <nav class="horizontal-nav full-width horizontalNav-notprocessed">
             <ul class="sf-menu">
-                 <li><a href="home.php">Home</a></li>
+            <li><a href="home.php">Home</a></li>
                  <li><a href="Room.php">Room</a></li>
                  <li class="current"><a href="Gallery.php">Gallery</a></li>
                  <li><a href="Booking.php">Booking</a></li>
@@ -107,7 +107,7 @@
 
         </div>
         <div class="copy">
-        YourHome &copy; 2014  |  <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com  </a>
+        Lucifer Apartment &copy; 2014  |  <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com  </a>
         </div>
          
       </div>

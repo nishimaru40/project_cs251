@@ -1,3 +1,4 @@
+<?php session_start();?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -16,12 +17,10 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+      
 
         <!-- Add your site or application content here -->
-        <form id="booking-form" class="booking-form" name="form1" method="post" action="">
+        <form id="booking-form" class="booking-form" name="form1" method="post" action="check_login.php">
             <div align="center"><img class="logo" src="img/example_logo.jpg" title="Example Logo" alt="Example Logo"></div>
             <div class="h1">Admin Management</div>
             <div id="form-message" class="message hide">
@@ -30,11 +29,12 @@
               
                 <div class="group">
                     <label for="adminID">AdminID:</label>
-                    <div><input id="adminID" name="adminID" class="form-control" type="text" placeholder="adminID"></div>
+                    <div><input id="adminID" required  name="adminID" class="form-control" type="text" placeholder="adminID"></div>
+                    
                 </div>
                 <div class="group">
                     <label for="password">Password:</label>
-                    <div><input id="password" name="password" class="form-control" type="password" placeholder="password"></div>
+                    <div><input id="password" required name="password" class="form-control" type="password" placeholder="password"></div>
                 </div>
               
                 <div class="group submit">
@@ -44,10 +44,8 @@
             </div>
             <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
         </form>
+       
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>     
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        
     </body>
 </html>
