@@ -24,9 +24,7 @@
         <form id="booking-form" class="booking-form" name="form1" method="post" action="">
             <div align="center"><img class="logo" src="img/example_logo.png" title="Example Logo" alt="Example Logo"></div>
             <div class="h1">Lucifer Apartment</div>
-            <div id="form-message" class="message hide">
-                Thank you for your enquiry!
-            </div>
+           
             <div id="form-content">
                 <div class="group">
                     <label for="date-from">Check In</label>
@@ -89,6 +87,12 @@
                     <label for="name">IDCard/Passport</label>
                     <div><input id="IDCard" name="IDCard" class="form-control" type="IDCard" placeholder="IDCard"></div>
                 </div>
+ 
+                <div class="group">
+                    <label for="name">ID</label>
+                    <div><input id="ID" name="ID" class="form-control" type="ID" placeholder="IDnumber"></div>
+                </div>
+
                 <div class="group">
                     <label for="email">Email</label>
                     <div><input id="email" name="email" class="form-control" type="email" placeholder="Email"></div>
@@ -101,6 +105,8 @@
                 <div class="group submit">
                     <label class="empty"></label>
                     <div><input name="submit" type="submit" value="Submit"/></div>
+
+                    
                 </div>
             </div>
             <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
@@ -112,3 +118,5 @@
         <script src="js/main.js"></script>
     </body>
 </html>
+
+    

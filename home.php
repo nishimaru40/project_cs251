@@ -70,9 +70,10 @@
           <nav class="horizontal-nav full-width horizontalNav-notprocessed">
             <ul class="sf-menu">
                  <li class="current"><a href="home.php">Home</a></li>
-                 <li><a href="service.php">Services</a></li>
+                 <li><a href="Room.php">Room</a></li>
                  <li><a href="Gallery.php">Gallery</a></li>
-                 <li><a href="ContactsBooking.php">Contacts/Booking</a></li>
+                 <li><a href="Booking.php">Booking</a></li>
+                 <li><a href="Contacts.php">Contacts</a></li>
                </ul>
             </nav>
            <div class="clear"></div>
@@ -115,7 +116,7 @@
         <h2>Lucifer Apartment</h2>
         welcome!
         <div class="alright">
-          <a href="#" class="btn">More</a>
+        
         </div>
       </div>
     </div>
@@ -135,6 +136,7 @@
           <li><a href="#"><img src="images/feat4.jpg" alt="img04"></a></li>
           <li><a href="#"><img src="images/feat5.jpg" alt="img05"></a></li>
           <li><a href="#"><img src="images/feat6.jpg" alt="img06"></a></li>
+         
         </ul>
         <nav>
           <a class="tt-current"></a><a></a><a></a><a></a>
@@ -142,60 +144,37 @@
       </section>
       <div class="clear"></div>
       <div class="alright">
-      <a href="#" class="btn">More</a>
+      
       </div>
     </div>
   </div>
   <div class="hor"></div>
   <div class="container_12">
     <div class="grid_12 center">
-      <h3>Services</h3>
+      <h3>Services</h3> 
     </div>
-    <div class="grid_3">
-      <h4>Articles</h4>
-      <img src="images/page1_img1.jpg" alt="" class="img_inner">
-      Lorem ipsum dolor sit t,tetur adipiscing elit. In molliseri eratttis neque facilisi
-      <div class="alright"><a href="#" class="btn">More</a></div>
+
+    <div class="grid_2">
+    <ul class="list">
+    <li><a href="#">รถตู้รับส่งฟรี 6.30 - ตี 1</a></li>
+    <li><a href="#">7 - 11</a></li>
+    <li><a href="#">Food Plaza</a></li>
+    <li><a href="#">ตู้ATM</a></li>  
+    </ul>
+      
+      
     </div>
-    <div class="grid_3">
-      <h4>Color Analysis</h4>
+    <div class="grid_2">
       <ul class="list">
-        <li><a href="#">Lorem ipsum dolor sit </a></li>
-        <li><a href="#">Amet,tetur adipiscing elit</a></li>
-        <li><a href="#">In mollis eratttis neque </a></li>
-        <li><a href="#">Facilisis, sit amet ultretr</a></li>
-        <li><a href="#">Icies erat rutrums facilisis</a></li>
-        <li><a href="#">Nulla vel viverra auctoreo</a></li>
-        <li><a href="#">Magna sodales felis, quis</a></li>
+        <li><a href="#">สระว่านน้ำ </a></li>
+        <li><a href="#">ฟิตเนสเซ็นเตอร์</a></li>
+        <li><a href="#">สนามแบดมินตัน</a></li>
+        <li><a href="#">สนามฟุตซอล</a></li>
+        
       </ul>
-      <div class="alright"><a href="#" class="btn">More</a></div>
+      
     </div>
-    <div class="grid_3">
-      <h4>Accessory Installation</h4>
-      <ul class="list">
-        <li><a href="#">Morem ipsum dolor site</a></li>
-        <li><a href="#">Kmet,tetur adipiscing eli</a></li>
-        <li><a href="#">In mollis eratttis nequ </a></li>
-        <li><a href="#">Facilisis, sit amet ultretre</a></li>
-        <li><a href="#">Cies erat rutrums facilis </a></li>
-        <li><a href="#">Kulla vel viverra auctore</a></li>
-        <li><a href="#">Bagna sodales felisquik </a></li>
-      </ul>
-      <div class="alright"><a href="#" class="btn">More</a></div>
-    </div>
-    <div class="grid_3">
-      <h4>Floral Design</h4>
-      <ul class="list">
-        <li><a href="#">Korem ipsum dolor sitilo</a></li>
-        <li><a href="#">Pmet, tetur adipiscing eli</a></li>
-        <li><a href="#">On mollis eratttis nequ </a></li>
-        <li><a href="#">Gacilisis, sit amet ultre</a></li>
-        <li><a href="#">Mcies erat rutrumsu </a></li>
-        <li><a href="#">Vacilisis Nulla vel uivra </a></li>
-        <li><a href="#">Nuctoreo Magna sodale </a></li>
-      </ul>    
-      <div class="alright"><a href="#" class="btn">More</a></div>
-    </div>
+   
   </div>
 </div>
 <!--==============================footer=================================-->

@@ -53,11 +53,11 @@
         <div class="menu_block ">
           <nav class="horizontal-nav full-width horizontalNav-notprocessed">
             <ul class="sf-menu">
-            <li class="current"><a href="Home.php">Home</a></li>
+            <li><a href="Home.php">Home</a></li>
                  <li><a href="Room.php">Room</a></li>
                  <li><a href="Gallery.php">Gallery</a></li>
                  <li><a href="Booking.php">Booking</a></li>
-                 <li><a href="Contacts.php">Contacts</a></li>
+                 <li class="current"><a href="Contacts.php">Contacts</a></li>
 
                </ul>
             </nav>
