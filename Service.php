@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-     <title>Gallery</title>
+     <title>Services</title>
      <meta charset="utf-8">
      <meta name = "format-detection" content = "telephone=no" />
      <link rel="icon" href="images/favicon.ico">
      <link rel="shortcut icon" href="images/favicon.ico" />
-     <link rel="stylesheet" href="css/touchTouch.css">
   <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
      <link rel="stylesheet" href="css/style.css">
      <script src="js/jquery.js"></script>
@@ -18,10 +17,8 @@
      <script src="js/jquery.mobilemenu.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
       <script src="js/jquery.tooltipster.js"></script>
-     <script src="js/touchTouch.jquery.js"></script>
      <script>
        $(document).ready(function(){
-        $('.gallery a.gal').touchTouch();
         $().UItoTop({ easingType: 'easeOutQuart' });
         $('.tooltip').tooltipster();
         });
@@ -55,10 +52,9 @@
           <nav class="horizontal-nav full-width horizontalNav-notprocessed">
             <ul class="sf-menu">
             <li class="current"><a href="home.php">Home</a></li>
-                 <li><a href="Room.php">Room</a></li>
+                 <li><a href="service.php">Services</a></li>
                  <li><a href="Gallery.php">Gallery</a></li>
-                 <li><a href="Booking.php">Booking</a></li>
-                 <li><a href="Contacts.php">Contacts</a></li>
+                 <li><a href="ContactsBooking.php">Contacts/Booking</a></li>
                </ul>
             </nav>
            <div class="clear"></div>
@@ -70,17 +66,54 @@
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - March 10, 2014!</div>
   <div class="container_12">
     <div class="grid_12">
-      <h2>Gallery</h2>
+      <h2>Services</h2>
+      To learn more and download .psd files of this <span class="col1"><a href="http://blog.templatemonster.com/free-website-templates/">free theme</a></span>, visit TemplateMonster blog. <br>
+      Find a wide range of Interior and <span class="col1"><a href="http://www.templatemonster.com/category/interior-furniture/" rel="nofollow">Furniture Templates</a></span> in the same name category at TemplateMonster. 
     </div>
-    <div class="clear"></div>
-    <div class="gallery">
-      <div class="grid_4"><a href="images/big1.jpg" class="gal"><img src="images/page3_img1.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big2.jpg" class="gal"><img src="images/page3_img2.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big3.jpg" class="gal"><img src="images/page3_img3.jpg" alt=""></a></div>
-      <div class="clear"></div>
-      <div class="grid_4"><a href="images/big4.jpg" class="gal"><img src="images/page3_img4.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big5.jpg" class="gal"><img src="images/page3_img5.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big6.jpg" class="gal"><img src="images/page3_img6.jpg" alt=""></a></div>
+    <div class="clear cl1"></div>
+    <div class="serv">
+    <div class="grid_4">
+      <img src="images/page2_img1.jpg" alt="">
+      <div class="text1"><a href="#">Vivamus at magna non nuncer </a></div>Adipiscing elin mollis eratttis neq acilisis, sit amet ultrecies erat rutrumsucilisis 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img2.jpg" alt="">
+      <div class="text1"><a href="#">Mivamus at magna non nunco </a></div>Ulla vel uivra Nuctoreoagna sodale felis, quis malesuada nibh odio ut veliroin 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img3.jpg" alt="">
+      <div class="text1"><a href="#">Magna non nuncer tritique rhol</a></div>Mollis eratttis neq acilisis, sit amet ultrecies erat rutrumsucilisis  felis, quis malesuada 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="clear cl1"></div>
+    <div class="grid_4">
+      <img src="images/page2_img4.jpg" alt="">
+      <div class="text1"><a href="#">Agna non nuncer tritique cusur </a></div>Mollis eratttis neq acilisis, sit amet ultrecies erat rutrumsucilisis retolomi neryt nolo
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img5.jpg" alt="">
+      <div class="text1"><a href="#">Vivamus at magna non nuncer </a></div>Adipiscing elin mollis eratttis neq. Gacilisis, sit amet ultrecies erat rutrumsucilisis 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img6.jpg" alt="">
+      <div class="text1"><a href="#">Nagna non nuncer tritique rhor </a></div>Kmollis eratttis neq Gacilisis, sit amet ultrecies erat rutrumsucilisis gna sodale felis, quis 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="clear cl1"></div>
+    <div class="grid_4">
+      <img src="images/page2_img7.jpg" alt="">
+      <div class="text1"><a href="#">Tritique rhoncusOur company </a></div>Ratttis neq acilisis, sit amet ultrecies eraterolo rutrumsucilisis ale felis, quis malesuada
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img8.jpg" alt="">
+      <div class="text1"><a href="#">Magna non nuncer tritiquer any </a></div>Adipiscing elin mollis eratttis neq. Gacilisis, sit amet ultrecies erat rutrumsucilisis 
+      <div class="alright"><a href="#" class="btn">More</a></div>
+    </div>
     </div>
   </div>
 </div>
@@ -89,7 +122,7 @@
     <div class="container_12">
       
       <div class="grid_12">
-        <div class="socials">
+         <div class="socials">
       <section id="facebook">
         <a href="#" target="_blank"><span id="fackbook" class="tooltip" title="Link us on Facebook">f</span></a>
         </section>

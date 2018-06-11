@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
      <head>
-     <title>Gallery</title>
+     <title>Book</title>
      <meta charset="utf-8">
      <meta name = "format-detection" content = "telephone=no" />
      <link rel="icon" href="images/favicon.ico">
      <link rel="shortcut icon" href="images/favicon.ico" />
-     <link rel="stylesheet" href="css/touchTouch.css">
   <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
      <link rel="stylesheet" href="css/style.css">
      <script src="js/jquery.js"></script>
@@ -18,10 +17,8 @@
      <script src="js/jquery.mobilemenu.js"></script>
      <script src="js/jquery.easing.1.3.js"></script>
       <script src="js/jquery.tooltipster.js"></script>
-     <script src="js/touchTouch.jquery.js"></script>
      <script>
        $(document).ready(function(){
-        $('.gallery a.gal').touchTouch();
         $().UItoTop({ easingType: 'easeOutQuart' });
         $('.tooltip').tooltipster();
         });
@@ -54,8 +51,8 @@
         <div class="menu_block ">
           <nav class="horizontal-nav full-width horizontalNav-notprocessed">
             <ul class="sf-menu">
-            <li class="current"><a href="home.php">Home</a></li>
-                 <li><a href="Room.php">Room</a></li>
+                 <li><a href="home.php">Home</a></li>
+                 <li class="current"><a href="Room.php">Room</a></li>
                  <li><a href="Gallery.php">Gallery</a></li>
                  <li><a href="Booking.php">Booking</a></li>
                  <li><a href="Contacts.php">Contacts</a></li>
@@ -70,17 +67,33 @@
 <div class="content"><div class="ic">More Website Templates @ TemplateMonster.com - March 10, 2014!</div>
   <div class="container_12">
     <div class="grid_12">
-      <h2>Gallery</h2>
+      <h2>Room</h2>
+       
+
+       
     </div>
-    <div class="clear"></div>
-    <div class="gallery">
-      <div class="grid_4"><a href="images/big1.jpg" class="gal"><img src="images/page3_img1.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big2.jpg" class="gal"><img src="images/page3_img2.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big3.jpg" class="gal"><img src="images/page3_img3.jpg" alt=""></a></div>
-      <div class="clear"></div>
-      <div class="grid_4"><a href="images/big4.jpg" class="gal"><img src="images/page3_img4.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big5.jpg" class="gal"><img src="images/page3_img5.jpg" alt=""></a></div>
-      <div class="grid_4"><a href="images/big6.jpg" class="gal"><img src="images/page3_img6.jpg" alt=""></a></div>
+    <div class="clear cl1"></div>
+    <div class="serv">
+    <div class="grid_4">
+      <img src="images/page2_img1.jpg" alt="">
+      <div class="text1"><a href="#">เตียงนอน </a></div>เตียงนอนขนาด 6 ฟุตหรือ 3.5 ฟุต สองเตียง 
+      
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img2.jpg" alt="">
+      <div class="text1"><a href="#">ห้องครัว </a></div>มีอุปกรครบครันให้ ตรงตามมาตรฐานห้องครัวเสมือนได้อยู่บ้าน
+     
+    </div>
+    <div class="grid_4">
+      <img src="images/page2_img3.jpg" alt="">
+      <div class="text1"><a href="#">พักผ่อน</a></div>มุมสบายสำหรับคุณเพื่อทำกิจกรรมในวันว่างๆ หรือเหนื่อยจากกิจกรรมด้านนอกมาทั้งวัน 
+     
+    </div>
+    
+    <div class="grid_4">
+      <img src="images/page2_img8.jpg" alt="">
+      <div class="text1"><a href="#">ห้องน้ำ </a></div>มีห้องน้ำในตัว พร้อมสุขภัณฑ์ครบครัน
+    </div>
     </div>
   </div>
 </div>
@@ -89,7 +102,7 @@
     <div class="container_12">
       
       <div class="grid_12">
-        <div class="socials">
+         <div class="socials">
       <section id="facebook">
         <a href="#" target="_blank"><span id="fackbook" class="tooltip" title="Link us on Facebook">f</span></a>
         </section>
